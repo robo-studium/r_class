@@ -124,3 +124,14 @@ coef(result)
 result <- princomp(data, cor=TRUE, scale=TRUE)
 ```
 => 主成分分析.Rmd
+
+# データの読み込み
+```
+# windowsの場合（フロントスラッシュ）
+data <- read.csv("C:/データ.csv", header = TRUE, stringsAsFactors = FALSE)
+
+# windowsの場合（バックスラッシュ）
+data <- read.csv("C:\\データ.csv", header = TRUE, stringsAsFactors = FALSE)
+```
+
+
